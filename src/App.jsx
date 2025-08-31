@@ -39,23 +39,6 @@ function App() {
             <div key={seccion.id} className="seccion-continuidad">
               <div className="seccion-header">
                 <h2 className="seccion-titulo">{seccion.titulo}</h2>
-                <button className="expand-button">
-                  <svg 
-                    width="24" 
-                    height="24" 
-                    viewBox="0 0 24 24" 
-                    fill="none"
-                    className={seccion.expandido ? 'rotated' : ''}
-                  >
-                    <path 
-                      d="M7 10L12 15L17 10" 
-                      stroke="currentColor" 
-                      strokeWidth="2" 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </button>
               </div>
               
               {seccion.expandido && (
@@ -63,6 +46,26 @@ function App() {
                   <div className="contenido-wrapper">
                     <div className="texto-contenido">
                       <p className="descripcion">{seccion.descripcion}</p>
+                    </div>
+
+                    <div className="boton-contenido">
+                      <button className="expand-button">
+                        <svg 
+                          width="24" 
+                          height="24" 
+                          viewBox="0 0 24 24" 
+                          fill="none"
+                          className={seccion.expandido ? 'rotated' : ''}
+                        >
+                          <path 
+                            d="M7 10L12 15L17 10" 
+                            stroke="currentColor" 
+                            strokeWidth="2" 
+                            strokeLinecap="round" 
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      </button>
                     </div>
                     
                     {seccion.imagen && (
