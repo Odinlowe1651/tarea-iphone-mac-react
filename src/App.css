@@ -87,7 +87,7 @@ body {
 
 .contenido-wrapper {
   display: grid;
-  grid-template-columns: 0.4fr 0.4fr 1.2fr;
+  grid-template-columns: 0.5fr 0.3fr 1.2fr;
   width: 100%;
   padding: 10px 70px 70px 70px;
   align-items: start;  /* Cambiar de 'center' a 'start' */
@@ -96,7 +96,7 @@ body {
 
 /* Contenido de texto */
 .texto-contenido {
-  padding-right: 50px;
+   padding: 40px 30px 40px 40px;
 }
 
 .descripcion {
