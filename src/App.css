@@ -132,7 +132,6 @@ body {
 }
 
 .descripcion::first-line {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 28px;
-  margin-bottom: 20px;
 }
