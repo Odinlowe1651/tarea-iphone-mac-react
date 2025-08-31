@@ -58,18 +58,11 @@ body {
   background-color: #fafafa;
 }
 
-/* Header para sección expandida */
-.seccion-continuidad:first-child .seccion-header {
-  background-color: transparent;
-  border-bottom: none;
-}
-
-.seccion-continuidad:first-child .seccion-header:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.seccion-continuidad:first-child .seccion-titulo {
-  color: white;
+.seccion-titulo {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #1d1d1f;
 }
 
 .seccion-titulo {
@@ -94,16 +87,6 @@ body {
   color: #1d1d1f;
 }
 
-/* Botón para sección expandida */
-.seccion-continuidad:first-child .expand-button {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.seccion-continuidad:first-child .expand-button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: white;
-}
-
 .expand-button svg {
   transition: transform 0.3s ease;
 }
@@ -114,12 +97,12 @@ body {
 
 /* Contenido expandido */
 .seccion-contenido {
-  border-top: none;
+  border-top: 1px solid #f0f0f0;
   animation: slideDown 0.4s ease-out;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: transparent;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: stretch;
 }
 
 @keyframes slideDown {
@@ -136,35 +119,40 @@ body {
 .contenido-wrapper {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  gap: 80px;
-  padding: 80px 60px;
-  align-items: center;
+  gap: 0;
+  padding: 0;
+  align-items: stretch;
   min-height: 80vh;
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   width: 100%;
 }
 
 /* Contenido de texto */
 .texto-contenido {
-  max-width: 420px;
-  padding-right: 20px;
+  background-color: #f5f5f7;
+  padding: 80px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .descripcion {
   font-size: 21px;
   line-height: 1.4;
-  color: #ffffff;
+  color: #1d1d1f;
   font-weight: 400;
   letter-spacing: -0.01em;
+  max-width: 420px;
 }
 
 /* Contenido de imagen */
 .imagen-contenido {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  padding-left: 20px;
+  padding: 80px 60px;
 }
 
 .imagen-principal {
