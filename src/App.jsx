@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css';
+import './App.css';
 
 function App() {
   // Objeto para estructurar la información según las buenas prácticas de React
