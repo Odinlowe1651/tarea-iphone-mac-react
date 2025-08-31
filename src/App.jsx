@@ -9,8 +9,8 @@ function App() {
         id: 1,
         titulo: "iPhone y Mac",
         descripcion: "Con la app Duplicación del iPhone puedes ver la pantalla de tu teléfono en el Mac y controlarlo a distancia. Las funcionalidades de Continuidad te permiten responder llamadas y mensajes directamente desde el Mac. Incluso puedes copiar imágenes, videos o texto del iPhone y pegar todo en otra app en el Mac. Y con iCloud, puedes acceder a tus archivos desde ambos dispositivos.",
-        imagen: "https://www.apple.com/co/iphone/home/images/overview/augment/mac__b2km5lqjzk1y_large.jpg",
-        altText: "iPhone y MacBook mostrando la duplicación de pantalla",
+        imagen: "/path-to-your-image/iphone-mac-continuidad.jpg", // Aquí colocarás la imagen que subiste
+        altText: "iPhone y MacBook mostrando la duplicación de pantalla con continuidad",
         expandido: true
       },
       {
