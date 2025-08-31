@@ -90,7 +90,7 @@ body {
   grid-template-columns: 0.5fr 0.3fr 1.2fr;
   width: 100%;
   padding: 0px 70px 70px 70px;
-  align-items: center;
+  align-items: start;  /* Cambiar de 'center' a 'start' */
   min-height: 500px;
 }
 
@@ -141,5 +141,5 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 0 20px;
-  margin-top: 8px;
+  align-self: start;
 }
