@@ -86,7 +86,7 @@ body {
 
 .contenido-wrapper {
   display: grid;
-  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-columns: 0.6fr 1.4fr;
   width: 100%;
   padding: 0px 50px 50px 50px;
   align-items: center;
