@@ -87,7 +87,7 @@ body {
 
 .contenido-wrapper {
   display: grid;
-  grid-template-columns: 0.5fr 0.3fr 1.2fr;
+  grid-template-columns: 0.4fr 0.4fr 1.2fr;
   width: 100%;
   padding: 0px 70px 70px 70px;
   align-items: start;  /* Cambiar de 'center' a 'start' */
@@ -100,7 +100,7 @@ body {
 }
 
 .descripcion {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.4;
   color: #1d1d1f;
   font-weight: 400;
