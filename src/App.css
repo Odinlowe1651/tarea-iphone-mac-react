@@ -116,7 +116,7 @@ body {
 
 .imagen-principal {
   width: 100%;
-  max-width: 800px;
+  max-width: none;
   height: auto;
   border-radius: 8px;
 }
