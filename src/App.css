@@ -42,7 +42,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 70px 70px;
+  padding: 20px 70px;
   cursor: pointer;
 }
 
